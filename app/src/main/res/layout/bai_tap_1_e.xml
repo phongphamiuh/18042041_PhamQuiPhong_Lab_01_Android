@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1e"
+    >
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="73dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:drawableLeft="@drawable/avatar_user"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="textPersonName"
+        android:text="  Name"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:drawableLeft="@drawable/Vector"
+        android:drawableRight="@drawable/eye"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Password"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#1C1B1B"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/when_you_ag"
+        android:layout_width="266dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="Forgot your password?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

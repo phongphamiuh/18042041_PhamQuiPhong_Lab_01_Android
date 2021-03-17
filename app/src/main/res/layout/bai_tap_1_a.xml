@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="73dp"
+        android:text="GROW\nYOUR BUSINESS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circle"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+    <TextView
+        android:id="@+id/provide_you"
+        android:layout_width="302dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="372dp"
+        android:gravity="center_horizontal|top"
+        android:text="We will help you to grow your business using\nonline server"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="54dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:background="#E3C000"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:background="#E3C000"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="73dp"
+        android:text="HOW WE WORK?"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

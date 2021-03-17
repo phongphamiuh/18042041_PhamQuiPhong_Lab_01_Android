@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="136dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="textPersonName"
+        android:text="  Name"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/when_you_ag"
+        android:layout_width="260dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="When you agree to terms and conditions"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:drawableRight="@drawable/eye"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  Password"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="textPersonName"
+        android:text="  Email"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Famale"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <EditText
+        android:id="@+id/birthDay"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="textPersonName"
+        android:text="  BirthDay"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#E53935"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:background="#F2F2F2"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="phone"
+        android:text="  Phone"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
